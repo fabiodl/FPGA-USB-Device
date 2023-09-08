@@ -6,7 +6,7 @@
 // Function: USB Full Speed (12Mbps) device packet sender
 //           pack PID, ADDR, data bytes, and CRC5 or CRC16 to TX packet
 //--------------------------------------------------------------------------------------------------------
-
+/* verilator lint_off WIDTHTRUNC */
 module usbfs_packet_tx (
     input  wire        rstn,
     input  wire        clk,

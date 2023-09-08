@@ -1,0 +1,1 @@
+/home/fabio/dec/adda/fpga/hx8k.mk

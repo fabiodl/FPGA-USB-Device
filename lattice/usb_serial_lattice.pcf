@@ -1,0 +1,9 @@
+set_io                              clk12mhz    J3
+set_frequency                       clk12mhz    12
+
+set_io --warn-no-port  -pullup yes   button      P16
+set_io --warn-no-port                led         C3
+set_io --warn-no-port                usb_dp_pull N16
+set_io --warn-no-port                usb_dp      M15
+set_io --warn-no-port                usb_dn      K15
+set_io --warn-no-port                uart_tx     K14

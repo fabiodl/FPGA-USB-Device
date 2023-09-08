@@ -8,7 +8,7 @@
 //             send S_SYNC, TX bit stuff, NRZI encode
 //             packet sending can only be active after packet receiving, so this module is only for device (rather than host and hub)
 //--------------------------------------------------------------------------------------------------------
-
+/* verilator lint_off WIDTHTRUNC */
 module usbfs_bitlevel (
     input  wire        rstn,          // active-low reset, reset when rstn=0 (USB-unplug when reset)
     input  wire        clk,           // require 60MHz

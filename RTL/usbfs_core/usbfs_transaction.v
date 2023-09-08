@@ -11,6 +11,9 @@
 // |  [63:48]  |  [47:32]  |  [31:16]  |  [15:8]    |  [7]        |  [6:5]  |  [4:0]      |
 //--------------------------------------------------------------------------------------------------------
 
+/* verilator lint_off WIDTHTRUNC */
+/* verilator lint_off CASEX */
+
 module usbfs_transaction #(
     parameter [ 18*8-1:0] DESCRIPTOR_DEVICE = 0,                  // 18 byte capacity
     parameter [ 64*8-1:0] DESCRIPTOR_STR1   = 0,                  // 64 byte capacity
